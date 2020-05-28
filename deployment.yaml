@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: my-pod
-        image: nginx:1.17.9-alpine-x
+        image: nginx:1.17.9-alpine
   replicas: 2
   selector:
     matchLabels:
